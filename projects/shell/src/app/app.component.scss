@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.shell {
+    border-right: 1px solid red;
+    height: 100vh;
+}
+
+.fed {
+    grid-column: span 3;
+    background-color: aqua;
+    height: 100vh;
+}
